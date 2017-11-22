@@ -1,10 +1,8 @@
 <template>
   <div>
-    <Row>
-      <Col :md="12" :sm="24">col-12</Col>
-      <Col :md="12" :sm="24">col-12</Col>
-    </Row>
-    <span>this is page index </span>
+  <mt-field label="邮箱" state="success" v-model="email"></mt-field>
+  <mt-field label="邮箱" state="error" v-model="email"></mt-field>
+  <mt-field label="邮箱" state="warning" v-model="email"></mt-field>
   </div>
 </template>
 <script>
@@ -13,8 +11,8 @@ export default {
   },
   data () {
     return {
-      pname: '',
-      pname1: ''
+      email: '',
+      pname: ''
     }
   }
 }
