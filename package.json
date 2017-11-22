@@ -1,0 +1,24 @@
+{
+  "name": "vue-app-template",
+  "version": "1.0.0",
+  "description": "vue template for app",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/supaide/vue-app-template.git"
+  },
+  "keywords": [
+    "vue",
+    "template",
+    "html5 application",
+    "mint-ui"
+  ],
+  "author": "cyij",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/supaide/vue-app-template/issues"
+  },
+  "homepage": "https://github.com/supaide/vue-app-template#readme"
+}
