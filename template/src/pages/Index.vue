@@ -6,9 +6,15 @@
   </div>
 </template>
 <script>
+{{#if_eq dependency "byneed"}}
+import {Field} from 'mint-ui'
+{{/if_eq}}
 export default {
+  {{#if_eq dependency "byneed"}}
   components: {
+    Field.name: Field
   },
+  {{/if_eq}}
   data () {
     return {
       email: '',
