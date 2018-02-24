@@ -10,7 +10,7 @@
     "build": "node build/build.js"
   },
   "dependencies": {
-    "mint-ui": "^2.2.11",
+    "mint-ui": "^2.2.13",
     "vue-page-manage": "^1.0.0",
     "h5-webutil": "^1.0.0",
     "vue": "^2.5.13",
